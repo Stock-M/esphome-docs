@@ -174,6 +174,7 @@ Air Quality
     EE895, components/sensor/ee895, EE895.png,  CO2 & Temperature & Pressure
     HM3301, components/sensor/hm3301, hm3301.jpg, Particulate
     MH-Z19, components/sensor/mhz19, mhz19.jpg, CO2 & Temperature
+    MiCS-4514, components/sensor/mics_4514, mics_4514.jpg, Gas concentration
     PM1006 Sensor, components/sensor/pm1006, pm1006.jpg, Particulate
     PMSA003I, components/sensor/pmsa003i, pmsa003i.jpg, Particulate
     PMSX003, components/sensor/pmsx003, pmsx003.svg, Particulate
@@ -357,6 +358,7 @@ Miscellaneous
     TX20, components/sensor/tx20, tx20.jpg, Wind speed & Wind direction
     uFire EC sensor, components/sensor/ufire_ec, ufire_ec.png, EC & Temperature
     uFire ISE sensor, components/sensor/ufire_ise, ufire_ise.png, pH & Temperature
+    Resol VBus, components/vbus, resol_deltasol_bs_plus.jpg
 
 
 Motion
@@ -367,6 +369,7 @@ Motion
     MPU6050, components/sensor/mpu6050, mpu6050.jpg, Accelerometer & Gyroscope
     MPU6886, components/sensor/mpu6886, mpu6886.jpg, Accelerometer & Gyroscope
     RuuviTag, components/sensor/ruuvitag, ruuvitag.jpg, Temperature & Humidity & Accelerometer
+    LD2410, components/sensor/ld2410, ld2410.jpg, Motion & Presence
 
 
 Thermocouple
@@ -418,6 +421,8 @@ Binary Sensor Components
     XPT2046, components/binary_sensor/xpt2046, xpt2046.jpg
     CAP1188 Capacitive Touch Sensor, components/binary_sensor/cap1188, cap1188.jpg
     Touchscreen, components/touchscreen/index, touch.svg
+    Resol VBus, components/vbus, resol_deltasol_bs_plus.jpg
+    LD2410, components/sensor/ld2410, ld2410.jpg
     Custom Binary Sensor, components/binary_sensor/custom, language-cpp.svg
 
 Output Components
@@ -438,6 +443,8 @@ Output Components
     MY9231/MY9291, components/output/my9231, my9231.svg
     SM16716, components/output/sm16716, sm16716.svg
     SM2135, components/output/sm2135, sm2135.svg
+    SM2235, components/output/sm2235, sm2235.svg
+    SM2335, components/output/sm2335, sm2335.svg
     MCP4725, components/output/mcp4725, mcp4725.jpg
     MCP4728, components/output/mcp4728, mcp4728.jpg
     MCP47A1, components/output/mcp47a1, mcp47a1.svg
@@ -445,7 +452,11 @@ Output Components
     BLE Binary Output, components/output/ble_client, bluetooth.svg
     Modbus Output, components/output/modbus_controller, modbus.png
     Custom Output, components/output/custom, language-cpp.svg
+    Sigma-Delta Output, components/output/sigma_delta, sigma-delta.svg
     Template Output, components/output/template, description.svg
+    BP1658CJ, components/output/bp1658cj, bp1658cj.svg
+    BP5758D, components/output/bp5758d, bp5758d.svg
+    X9C Potentiometer, components/output/x9c, x9c.jpg
 
 Light Components
 ----------------
@@ -648,6 +659,18 @@ Media Player Components
     Media Player Core, components/media_player/index, folder-open.svg
     I2S Audio, components/media_player/i2s_audio, i2s_audio.svg
 
+Time Components
+---------------
+
+.. imgtable::
+
+    Time Core, components/time/index, clock-outline.svg
+    Home Assistant Time, components/time/homeassistant, home-assistant.svg
+    SNTP, components/time/sntp, clock-outline.svg
+    GPS Time, components/time/gps, crosshairs-gps.svg
+    DS1307 RTC, components/time/ds1307, clock-outline.svg
+    PCF85063 RTC, components/time/pcf85063, clock-outline.svg
+
 Misc Components
 ---------------
 
@@ -658,10 +681,11 @@ Misc Components
     Status LED, components/status_led, led-on.svg
     Display Menu Core, components/display_menu/index, folder-open.svg
     LCD Menu, components/display_menu/lcd_menu, lcd_menu.png
+    Matrix Keypad, components/matrix_keypad, matrix_keypad.jpg
+    Wiegand Reader, components/wiegand, wiegand.jpg
     HTTP Request, components/http_request, connection.svg
     mDNS, components/mdns, radio-tower.svg
 
-    Time, components/time, clock-outline.svg
     Sun, components/sun, weather-sunny.svg
     GPS, components/gps, crosshairs-gps.svg
 
@@ -678,6 +702,7 @@ Misc Components
     Servo, components/servo, servo.svg
     Sprinkler, components/sprinkler, sprinkler-variant.svg
 
+    PCA9554 I/O Expander, components/pca9554, pca9554a.jpg
     PCF8574 I/O Expander, components/pcf8574, pcf8574.jpg
     MCP230XX I/O Expander - I²C Bus, components/mcp230xx, mcp230xx.svg
     TCA9548A I²C Multiplexer, components/tca9548a, tca9548a.jpg
@@ -702,6 +727,7 @@ Misc Components
     Grow Fingerprint Reader, components/fingerprint_grow, fingerprint.svg
     SML, components/sml, sml.svg
     Atlas Scientific Peristaltic Pump, components/ezo_pmp, ezo-pmp.jpg
+    Resol VBus, components/vbus, resol_deltasol_bs_plus.jpg
     Demo, components/demo, description.svg
     Copy, components/copy, content-copy.svg
 
